@@ -1,0 +1,65 @@
+* {
+    font-family: 'Asap', sans-serif;
+}
+
+body {
+    margin: 30px;
+    background-color: rgb(201, 154, 85);
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    background-color: rgb(63, 137, 185);
+    padding: 30px;
+}
+
+span {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+h2, h3{
+    text-align: center;
+    vertical-align: baseline;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: 10px teal;
+  }
+
+h1, p {
+    text-align: center;
+}
+
+p {
+    color: black;
+    margin: 20px 200px;
+}
+
+hr {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+h1 > img {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 119px;
+    padding-top: 33px;
+    padding-right: 30px;
+}
